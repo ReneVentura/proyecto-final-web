@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.contacto{
+    height: 100vh;
+}
+
+.cont-strip1{
+    background:url("https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg")  center ;
+    
+    height: 50%;
+    
+}
+.logo3 {
+    text-align: center;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     user-select: none;
+  }
+  
+  .logo3 b{
+    font: 400 19vh "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff8f44, 0 0 0.5em #ffcd44, 0 0 0.1em #ff8944, 0 10px 3px #000;
+  }
+  .logo3 b span{
+    animation: blink linear infinite 4s;
+  }
+  .logo3 b span:nth-of-type(2){
+    animation: blink linear infinite 5s;
+  }
+
+
+  .t-cont{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .text-cont{
+    font-family: 'Staatliches', cursive;
+    color: #0dffd6;
+    font-size: 2.5rem;
+  }
+  .t-cont{
+      display: block;
+      width: 30%;
+  }
+  .ce{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2%;
+      width: 100%;
+  }
+  .cce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.enter{
+    height: 5%;
+}
+  .cc
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090021;
+    height: 35%;
+  }
+
+  .cont-form
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090021;
+    height: 80%;
+  }

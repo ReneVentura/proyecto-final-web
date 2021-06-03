@@ -1,0 +1,130 @@
+.portafolio{
+    height: 100vh;
+}
+.port-strip1{
+    background:url("https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg")  center ;
+    
+    height: 50%;
+    
+}
+.logo2 {
+    text-align: center;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     user-select: none;
+  }
+  
+  .logo2 b{
+    font: 400 19vh "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #44ff6d, 0 0 0.5em #44ffa2, 0 0 0.1em #44ff54, 0 10px 3px #000;
+  }
+  .logo2 b span{
+    animation: blink linear infinite 4s;
+  }
+  .logo2 b span:nth-of-type(2){
+    animation: blink linear infinite 5s;
+  }
+  .port-strip2{
+    overflow: auto;
+    background:black ;
+    height: 60%;
+    width: 100%;
+  }
+  .strip2-port-c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #090021;
+    height: 100%;
+    transition: width 1s;
+  }
+
+  .strip2-port-c2{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background:url("https://image.freepik.com/vector-gratis/fondo-pared-ladrillo-textura-iluminada-luz-neon-oscura_91645-71.jpg")  center ;
+    display: flex;
+  }
+
+  .port-img-s2{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-3-14-31.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+
+
+  .port-img-s3{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-16-6-35.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+
+  .port-img-s4{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-16-15-46.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+  .port-img-s5{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-16-23-0.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+
+  .port-img-s6{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-16-38-19.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+
+  .port-img-s7{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-16-44-57.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+
+  .port-img-s8{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-18-5-39.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }
+
+  
+  .port-img-s9{
+    height: 90%;
+    width: 60%;
+    background: url("../imgs/MOSHED-2021-6-2-18-9-46.gif") center no-repeat;
+    background-size: 50% 50%;
+    display: flex;
+    filter: none;
+  }

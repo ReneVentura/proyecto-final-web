@@ -1,0 +1,66 @@
+.ff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+form {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    width: 50%;
+    height: 50%;
+    margin: 12px auto;
+    border: 2px solid rgb(50, 7, 100);
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+  }
+  
+  form > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    background-color:black;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  form > div > img{
+    filter:invert(1);
+    width:100px;
+  }
+  
+  form > input,
+  form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #21ebff;
+    color: #21ebff;
+    background-color: rgba(34, 34, 34, 0);
+    border-radius: 7px;
+    display: block;
+    width: 70%;
+  }
+  
+  form > textarea{
+    height:100px;
+    resize:none;
+  }
+  
+  form > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+  }
+  
+  form > input[type="submit"]:hover {
+    background-color: #21ebff;
+    color: #000;
+  }
+  
